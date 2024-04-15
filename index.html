@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenSphere.org</title>
+    <link rel="icon" href="pic.png" >
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero">
+
+        <video src="myvideo.mp4"  autoplay class="my-video"></video>
+        <nav>
+            <h1>
+                <img src="pic.png" alt="" class="my-pic">
+                <a href="#">GreenSphere.org</a>
+            </h1>
+            <ul>
+                <li><a href="#scroll1">Identify</a></li>
+                <li><a href="#scroll2">Protect</a></li>
+                <li><a href="#scroll3">Restoration</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h2>Habitat Restoration & Protection</h2>
+            <a href="#">Explore</a>
+        </div>
+    </div>
+    
+    <div id="scroll1">
+        <div class="container1">
+            <img src="pic1.jpeg" alt="">
+            <section>
+                <h2>Identifying Key Habitats of <span>Endemic Species</span>:</h2>
+                <ul>
+                    <li class="x1">Conduct comprehensive surveys and assessments of biodiversity hotspots:</li>
+                    <ul class="y1">
+                        <li>This involves conducting thorough field surveys to identify areas rich in biodiversity and endemic species.</li>
+                        <li>Scientists and researchers utilize various sampling techniques to document the presence of endemic species and assess the health of ecosystems.</li>
+                    </ul>
+                    <li class="x1">
+                        Map the distribution of endemic species using advanced technologies like remote sensing and GIS:
+                    </li>
+                    <ul class="y1">
+                        <li>Utilize satellite imagery and geographic information systems (GIS) to analyze landscape features and habitat characteristics.</li>
+                        <li>Remote sensing technologies provide valuable data on habitat extent, fragmentation, and connectivity, aiding in the identification of key habitats for endemic species.</li>
+                    </ul>
+                    <li class="x1">Engage with local communities and indigenous peoples to gather traditional ecological knowledge:</li>
+                    <ul class="y1">
+                        <li>
+                            Local communities often possess valuable traditional ecological knowledge about the distribution and behavior of endemic species.
+                        </li>
+                        <li>Collaborating with indigenous peoples fosters a deeper understanding of ecosystem dynamics and can inform conservation strategies.</li>
+                    </ul>
+                </ul>
+                <button><a href="https://www.britannica.com/science/endemic-species" target="_blank">Learn more</a></button>
+            </section>
+            
+        </div>
+    </div>
+    
+    <div id="scroll2">
+        <div class="container1">
+            <img src="pic2.jpeg" alt="">
+            <section>
+                <h2>Protecting <span>Key Habitats</span>:</h2>
+                <ul>
+                    <li class="x1">Establish protected areas such as national parks, wildlife sanctuaries, and conservation reserves:</li>
+                    <ul class="y1">
+                        <li>Designate legally protected areas where human activities are regulated to minimize habitat disturbance.</li>
+                        <li>Protected areas serve as refuges for endemic species, providing essential habitat and sanctuary from threats.</li>
+                    </ul>
+                    <li class="x1">
+                        Enforce anti-poaching laws and conduct regular patrols within protected areas:
+                    </li>
+                    <ul class="y1">
+                        <li>Implement strict enforcement measures to combat poaching, illegal logging, and other illegal activities.</li>
+                        <li>Regular patrols by trained rangers help deter illegal activities and protect endemic species from exploitation.</li>
+                    </ul>
+                    <li class="x1">Implement community-based conservation programs to engage local stakeholders:</li>
+                    <ul class="y1">
+                        <li>
+                            Involve local communities in conservation decision-making processes to foster stewardship and local ownership of protected areas.
+                        </li>
+                        <li>Community-based conservation initiatives promote sustainable resource management practices and enhance conservation outcomes.</li>
+                    </ul>
+                </ul>
+                <button><a href="https://capitollandtrust.org/conserved-lands/conserving-key-habitats/" target="_blank">Learn more</a></button>
+            </section>
+            
+        </div>
+    </div>
+    
+    <div id="scroll3">
+        <div class="container1">
+            <img src="pic3.jpeg" alt="">
+            <section>
+                <h2>Implementing <span>Restoration Projects</span>:</h2>
+                <ul>
+                    <li class="x1">Conduct reforestation, wetland rehabilitation, and soil conservation activities:</li>
+                    <ul class="y1">
+                        <li>Restore degraded habitats through planting native tree species, restoring wetlands, and implementing erosion control measures.</li>
+                        <li>Restoration projects aim to improve habitat quality and create suitable environments for endemic species to thrive.</li>
+                    </ul>
+                    <li class="x1">
+                        Promote community-based approaches for participatory reforestation and conservation management:
+                    </li>
+                    <ul class="y1">
+                        <li>Engage local communities in restoration efforts through participatory approaches such as community-led tree planting initiatives.</li>
+                        <li>Empower communities to take ownership of restoration projects, fostering a sense of pride and responsibility for their natural environment.</li>
+                    </ul>
+                    <li class="x1">Monitor restoration efforts and adapt management strategies as needed:</li>
+                    <ul class="y1">
+                        <li>
+                            Implement robust monitoring and evaluation frameworks to assess the success of restoration projects.
+                        </li>
+                        <li>Adapt management strategies based on monitoring data to address emerging challenges and optimize conservation outcomes.</li>
+                    </ul>
+                </ul>
+                <button><a href="https://www.darrp.noaa.gov/getting-restoration/restoration" target="_blank">Learn more</a></button>
+            </section>
+            
+        </div>
+    </div>
+
+    <script>
+
+        document.querySelector('a[href="#scroll1"]').addEventListener('click', function (e) {
+          e.preventDefault(); 
+          document.querySelector('#scroll1').scrollIntoView({
+            behavior: 'smooth' 
+          });
+        });
+
+        document.querySelector('a[href="#scroll2"]').addEventListener('click', function (e) {
+          e.preventDefault(); 
+          document.querySelector('#scroll2').scrollIntoView({
+            behavior: 'smooth' 
+          });
+        });
+
+        document.querySelector('a[href="#scroll3"]').addEventListener('click', function (e) {
+          e.preventDefault(); 
+          document.querySelector('#scroll3').scrollIntoView({
+            behavior: 'smooth' 
+          });
+        });
+
+    </script>
+
+</body>
+</html>
